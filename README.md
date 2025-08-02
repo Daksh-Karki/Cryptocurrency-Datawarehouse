@@ -1,13 +1,23 @@
 # Cryptocurrency-Datawarehouse
 
-Project Overview
-This project implements a data warehouse solution for analyzing and reporting cryptocurrency trading data. The goal is to integrate large volumes of historical data from kaggle into a centralized warehouse to support efficient querying, business intelligence, and reporting.
+This project is a **cloud-based data warehouse solution** developed on **Google Cloud Platform (GCP)** to analyze over **2.5 million records** of historical cryptocurrency trading data sourced from [Kaggle](https://www.kaggle.com/datasets/georgezakharov/historical-data-on-the-trading-of-cryptocurrencies).
 
-This system is designed to:
+The goal is to consolidate, transform, and store high-volume crypto trading data to support advanced querying, historical analysis, and business intelligence using **BigQuery** and **Power BI**.
 
-Consolidate crypto trade data
-Standardize schema, time zones, and currencies
-Enable historical tracking and trend analysis
-Support Power BI dashboards for real-time insights
+---
+
+## 🧠 Key Features
+
+- ✅ Cloud-native architecture using **Google Cloud Storage (GCS)** and **BigQuery**
+- ✅ Scalable ETL pipeline built in Python using **Pandas** and **SQLAlchemy**
+- ✅ Normalized to **star schema** for efficient querying
+- ✅ Real-time business insights with **Power BI dashboards**
+- ✅ Supports historical trend analysis, exchange comparison, and volatility tracking
+
+---
+
+## ☁️ Architecture
+
+**GCS (Storage Bucket)** → **Python ETL (Colab / Cloud Functions)** → **BigQuery (Data Warehouse)** → **Power BI (Visualization)**
 
 [Final Assignment.docx](https://github.com/user-attachments/files/21557211/Final.Assignment.docx)
