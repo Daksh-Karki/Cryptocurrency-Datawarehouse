@@ -9,3 +9,5 @@ Consolidate crypto trade data
 Standardize schema, time zones, and currencies
 Enable historical tracking and trend analysis
 Support Power BI dashboards for real-time insights
+
+[Final Assignment.docx](https://github.com/user-attachments/files/21557211/Final.Assignment.docx)
