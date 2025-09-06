@@ -18,6 +18,6 @@ The goal is to consolidate, transform, and store high-volume crypto trading data
 
 ## ☁️ Architecture
 
-**GCS (Storage Bucket)** → **Python ETL (Colab / Cloud Functions)** → **BigQuery (Data Warehouse)** → **Power BI (Visualization)**
+**GCS (Storage Bucket)** → **Python ETL (Colab / Cloud Functions)** → **BigQuery (Data Warehouse)** → **Looker Studio(Visualization)**
 
 [Final Assignment.docx](https://github.com/user-attachments/files/21557211/Final.Assignment.docx)
